@@ -1,0 +1,4 @@
+FROM openjdk:16-alpine3.13
+WORKDIR /app
+RUN chmod 775 script.sh
+RUN ./script.sh
